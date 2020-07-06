@@ -1,0 +1,212 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+#page{
+    display: grid;
+}
+
+.page-head{
+    position: fixed;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 3em;
+    background: white;
+}
+
+.left-part{
+    display: flex;
+    align-items: center;
+}
+
+.left-part ul{
+    margin: 0em;
+    display: flex;
+    list-style: none;
+    padding-left: 1.7em;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.left-part>ul li{
+    margin: 0px 2em 0px 0px;
+}
+
+.right-part{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.insta-block {
+    display: flex;
+    align-items: center;
+    margin: 0px 1em 0px 0px;
+    border: solid .09em rgb(217,43,112);
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    border-radius: 0.3em;
+}
+
+.insta{
+    color:rgb(217,43,112);
+}
+
+.insta-label{
+    margin-left: 0.4em;
+    font-size: .7em;
+    font-weight: bold;
+    color: rgb(217,43,112);
+}
+
+#site-content{
+    margin: 10% 4% 0% 4%;
+}
+
+.article-content{
+    margin-top: 5em;
+}
+
+.article-head{
+    display: grid;
+    grid-template-areas:
+        "left-gap heading heading heading heading heading heading right-gap"
+        "left-by by by by by by by right-by"
+        "left-int int int int int int int right-int"
+        "fig fig fig fig fig fig fig fig ";
+}
+
+figcaption{
+    text-align: center;
+}
+
+.article-head>h1{
+    grid-area: heading;
+    line-height: 1.7;
+    font-size: 1.8em;
+    margin: 0em 0em 0.3em 0em;
+}
+
+.article-head>h3{
+    grid-area: by;
+    font-size: 0.9em;
+    margin: 0em 0em 0em 0em;
+}
+
+.article-head>h3 em{
+    color: black;
+}
+
+.article-head>h4{
+    grid-area: int;
+    line-height: 1.7;
+}
+
+.article-head>figure{
+    grid-area: fig;
+}
+
+figcaption{
+    text-decoration: underline;
+    color: rgba(117, 117, 117, 1);
+}
+
+.article-image img{
+    max-width: 100%;
+}
+
+.article-main{
+    width: 80%;
+    margin: 0em auto;
+    border-bottom: solid 1px grey;
+}
+
+.article-main p{
+    font-size: 1.2em;
+    line-height: 1.7;
+    padding-top: 1em;
+}
+
+.article-footer{
+    width: 80%;
+    margin: 2em auto;
+}
+
+.article-footer h5{
+    margin: 0em;
+    color: rgba(117, 117, 117, 1);
+}
+
+.article-footer .name{
+    font-size: 1.4em;
+}
+
+.cus-color{
+    color: rgba(117, 117, 117, 1);
+}
+
+.article-footer p{
+    margin-top: 0.6em;
+}
+
+.spacing{
+    margin-right: 1em;
+}
+
+#page-footer-block p{
+    margin: 0em;
+}
+
+#page-footer-block {
+    display: flex;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0em 1em 1em;
+    margin-top: 5em;
+}
+
+.footer-spacing{
+    margin-right: 2em;
+}
+
+.footer-social-media{
+    color: white;
+}
+
+@media(max-width:750px){
+    .article-head>figure {     
+        margin: 0em;
+    }
+
+    figcaption{
+        font-size: 0.8em;
+    }
+
+    .article-main {
+        width: 95%;
+    }
+
+    .left-part > ul li:nth-child(n+2) {
+        display: none;
+    }
+
+    .footer-spacing{
+        margin-right: 1em;
+    }
+
+}
+@media(max-width:400px){
+
+    .article-main p {
+        font-size: 1.1em;
+        line-height: 1.4;
+    }
+}
