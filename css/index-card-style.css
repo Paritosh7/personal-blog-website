@@ -1,0 +1,27 @@
+.card{
+    width: 70%;
+    padding: 1em;
+    border-left: solid 1px #8EA6B4;
+    margin-bottom: 2em;
+}
+
+.card h4,p,h6{
+    padding: 0;
+    margin: 0;
+}
+
+.card h6{
+    margin: 0.2em 0 0.9em 0.1em;
+}
+
+.card:hover .visibility{
+    transition: all 3s ease-in-out;
+    color: rgba(117, 117, 117, 1);
+    font-style: italic;
+    visibility: visible;
+}
+
+.card:hover{
+    transition: all 1s ease-in;
+    box-shadow: 1px 1px 1em #8EA6B4;
+}

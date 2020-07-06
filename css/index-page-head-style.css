@@ -1,0 +1,55 @@
+.page-head{
+    position: fixed;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 3em;
+    background: white;
+}
+
+.left-part{
+    display: flex;
+    align-items: center;
+}
+
+.left-part ul{
+    margin: 0;
+    display: flex;
+    list-style: none;
+    padding-left: 1.7em;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.left-part>ul li{
+    margin: 0 2em 0 0;
+}
+
+.right-part{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.insta-block {
+    display: flex;
+    align-items: center;
+    margin: 0 1em 0 0;
+    border: solid .09em rgb(217,43,112);
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    border-radius: 0.3em;
+}
+
+.insta{
+    color:rgb(217,43,112);
+}
+
+.insta-label{
+    margin-left: 0.4em;
+    font-size: .7em;
+    font-weight: bold;
+    color: rgb(217,43,112);
+}

@@ -1,0 +1,15 @@
+#footer-block {
+    display: flex;
+    background: black;
+    color: white;
+    justify-content: space-between;
+    padding: 1em 0 1em 1em;
+}
+
+.footer-social-media{
+    color: white;
+}
+
+.spacing{
+    margin-right: 2em;
+}

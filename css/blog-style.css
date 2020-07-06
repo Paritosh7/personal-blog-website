@@ -1,6 +1,7 @@
+@import url("blog-blockquote-style.css");
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     color: black;
     font-family: 'Raleway', sans-serif;
 }
@@ -24,7 +25,7 @@ body{
 }
 
 .left-part ul{
-    margin: 0em;
+    margin: 0;
     display: flex;
     list-style: none;
     padding-left: 1.7em;
@@ -36,7 +37,7 @@ a{
 }
 
 .left-part>ul li{
-    margin: 0px 2em 0px 0px;
+    margin: 0 2em 0px 0;
 }
 
 .right-part{
@@ -48,7 +49,7 @@ a{
 .insta-block {
     display: flex;
     align-items: center;
-    margin: 0px 1em 0px 0px;
+    margin: 0 1em 0 0;
     border: solid .09em rgb(217,43,112);
     padding: 0.1em 0.5em 0.1em 0.5em;
     border-radius: 0.3em;
@@ -90,13 +91,13 @@ figcaption{
     grid-area: heading;
     line-height: 1.7;
     font-size: 1.8em;
-    margin: 0em 0em 0.3em 0em;
+    margin: 0 0 0.3em 0;
 }
 
 .article-head>h3{
     grid-area: by;
     font-size: 0.9em;
-    margin: 0em 0em 0em 0em;
+    margin: 0;
 }
 
 .article-head>h3 em{
@@ -123,7 +124,7 @@ figcaption{
 
 .article-main{
     width: 80%;
-    margin: 0em auto;
+    margin: 0 auto;
     border-bottom: solid 1px grey;
 }
 
@@ -139,7 +140,7 @@ figcaption{
 }
 
 .article-footer h5{
-    margin: 0em;
+    margin: 0;
     color: rgba(117, 117, 117, 1);
 }
 
@@ -160,7 +161,7 @@ figcaption{
 }
 
 #page-footer-block p{
-    margin: 0em;
+    margin: 0;
 }
 
 #page-footer-block {
@@ -169,7 +170,7 @@ figcaption{
     color: white;
     align-items: center;
     justify-content: space-between;
-    padding: 1em 0em 1em 1em;
+    padding: 1em 0 1em 1em;
     margin-top: 5em;
 }
 
@@ -183,7 +184,7 @@ figcaption{
 
 @media(max-width:750px){
     .article-head>figure {     
-        margin: 0em;
+        margin: 0;
     }
 
     figcaption{
